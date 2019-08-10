@@ -3,11 +3,13 @@
     margin: 0;
 
 }
-body{
+
+body {
     background-image: url(img/sale.png);
     background-size: contain;
     background-color: rgb(1, 44, 1);
 }
+
 h1 {
     text-align: center;
     margin: 20px 0 20px 0;
@@ -26,6 +28,7 @@ h2 {
     margin: 0 0 20px 0;
     font-size: 20px;
 }
+
 #search {
     border-radius: 7px;
     padding: 8px;
@@ -34,6 +37,7 @@ h2 {
     font-size: 15px;
     box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.144), 0 3px 1px -2px rgba(228, 226, 226, 0.726), 0 1px 5px 0 rgba(250, 249, 249, 0.924);
 }
+
 .button {
     background-color: rgb(6, 195, 79);
     border-radius: 7px;
@@ -42,6 +46,7 @@ h2 {
     box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.144), 0 3px 1px -2px rgba(228, 226, 226, 0.726), 0 1px 5px 0 rgba(250, 249, 249, 0.924);
 
 }
+
 .button:hover {
     background-color: rgb(255, 0, 0);
 }
@@ -63,8 +68,6 @@ h2 {
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    /* width: 60vw; */
-    /* height: auto; */
     margin: 20px 0 0 0;
 
 }
@@ -95,6 +98,5 @@ a:hover {
     .game {
         display: inline-block;
         width: 33%;
-        /* margin: 0 0px 5px 00px; */
     }
 }

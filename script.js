@@ -1,4 +1,3 @@
-
 function generateHtml(obj) {
     console.log(obj)
     return `
