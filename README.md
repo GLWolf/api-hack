@@ -2,14 +2,14 @@
 
 [Link to live app.](https://glwolf.github.io/api-hack/)
 
-![screenCap](img/screenCAp1.png)
+![screenCap](/img/screenCAp1.png)
 
 This app will take a serch result and find games with that search result and find cheap prices for that game.
 
 Technology used.
 
-*HTML
-*CSS
-*JavaScript
-*jQuery
-*API
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* API
