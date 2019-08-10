@@ -3,13 +3,20 @@
     margin: 0;
 
 }
-
+body{
+    background-image: url(/img/sale4.png);
+    background-size: contain;
+    background-color: rgb(1, 44, 1);
+}
 h1 {
     text-align: center;
     margin: 20px 0 20px 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(144, 8, 8);
 }
 
 h2 {
+    color: white;
     text-align: center;
     margin: 20px 0 20px 0;
 }
@@ -17,15 +24,36 @@ h2 {
 .searchContainer {
     text-align: center;
     margin: 0 0 20px 0;
+    font-size: 20px;
+}
+#search {
+    border-radius: 7px;
+    padding: 8px;
+    width: 50%;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.144), 0 3px 1px -2px rgba(228, 226, 226, 0.726), 0 1px 5px 0 rgba(250, 249, 249, 0.924);
+}
+.button {
+    background-color: rgb(6, 195, 79);
+    border-radius: 7px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.144), 0 3px 1px -2px rgba(228, 226, 226, 0.726), 0 1px 5px 0 rgba(250, 249, 249, 0.924);
+
+}
+.button:hover {
+    background-color: chartreuse;
 }
 
 .display {
-    border: 4px solid black;
+    border-radius: 7px;
+    background-color: black;
     margin: 10px 20px 10px 20px
 }
 
 .game {
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.144), 0 3px 1px -2px rgba(228, 226, 226, 0.726), 0 1px 5px 0 rgba(250, 249, 249, 0.924);
 }
 
 .gameImg {
@@ -51,25 +79,22 @@ a,
 p {
     font-size: 20px;
     margin: 10px 0 10px 0;
+    color: rgb(255, 255, 255);
 }
 
 a {
-    color: red;
+    color: rgba(4, 158, 30, 0.465);
     text-decoration: none;
 }
 
 a:hover {
-    color: green;
+    color: rgb(211, 255, 13);
 }
 
 @media only screen and (min-width:800px) {
     .game {
         display: inline-block;
         width: 33%;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
-        margin: 0 5px 5px 0px;
-    }
-    .display {
-        /* border: none; */
+        /* margin: 0 0px 5px 00px; */
     }
 }
