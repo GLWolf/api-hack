@@ -1,6 +1,4 @@
-//const url = `http://www.cheapshark.com/api/1.0/deals?storeID=6&desc=2&title=`
-// const api = ``
-// fix the space problem on search
+
 function generateHtml(obj) {
     console.log(obj)
     return `
