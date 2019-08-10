@@ -29,7 +29,7 @@ function processGameData(responseData) {
 }
 
 function getGame(searchTerm) {
-    const url = `https://www.cheapshark.com/api/1.0/deals?&desc=2&title=${searchTerm}`
+    const url = `https://www.cheapshark.com/api/1.0/deals?&desc=2&sortBy=Title&title=${searchTerm}`
 
     fetch(url)
         .then(response => response.json())
