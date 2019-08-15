@@ -4,7 +4,7 @@
 
 ![screenCap](img/screenCap.png)
 
-This app will take a serch result and find games with that search result and find cheap prices for that game.
+This app will take a search result and find games with that search result and find cheap prices for that game.
 
 Technology used.
 

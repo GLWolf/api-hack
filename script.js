@@ -1,5 +1,4 @@
 function generateHtml(obj) {
-    console.log(obj)
     return `
     <div class="game" >
         <div class="gameImg" style="background-image: url(${obj.thumb})">
