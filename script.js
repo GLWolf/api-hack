@@ -64,7 +64,7 @@ function extraHtml(obj) {
 
 function dealsHTML(obj) {
     return `
-    <li><div class="leftSide"><a class="small" href="http://www.cheapshark.com/redirect?dealID=${obj.dealID}" target="_blank"
+    <li><div class="leftSide"><a class="small" href="https://www.cheapshark.com/redirect?dealID=${obj.dealID}" target="_blank"
     style=":hover {content: url(${obj.thumb});}">${obj.title}</a>
     </div><div class="rightSide"><del>$${obj.normalPrice}</del><span class="priceBox">$${obj.salePrice}</span></div></li>
     `
@@ -90,7 +90,7 @@ function processDeals(dealData, storeID) {
 }
 
 function extra() {
-    const url2 = `http://www.cheapshark.com/api/1.0/stores`
+    const url2 = `https://www.cheapshark.com/api/1.0/stores`
     fetch(url2)
         .then(response => response.json())
         .then(responseJson => processExtra(responseJson));
@@ -99,7 +99,7 @@ function extra() {
 function deals() {
 
     STATE.stores.forEach((element) => {
-        const url3 = `http://www.cheapshark.com/api/1.0/deals?storeID=${element.storeID}&pageSize=7`
+        const url3 = `https://www.cheapshark.com/api/1.0/deals?storeID=${element.storeID}&pageSize=7`
         fetch(url3)
             .then(response => response.json())
             .then(responseJson => processDeals(responseJson, element.storeID));
