@@ -6,7 +6,7 @@
 
 body {
     background-image: url(img/sale.png);
-    background-size: contain;
+    background-size: 100px;
     background-color: rgb(1, 44, 1);
 }
 
@@ -51,10 +51,65 @@ h2 {
     background-color: rgb(255, 0, 0);
 }
 
+.detail {
+    text-indent: 10px;
+}
+
 .display {
     border-radius: 7px;
     background-color: black;
     margin: 10px 20px 10px 20px
+}
+
+.info {
+    text-align: center;
+    padding: 5px;
+}
+
+.cards {
+    background: rgb(156, 156, 156);
+    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.144), 0 3px 1px -2px rgba(228, 226, 226, 0.726), 0 1px 5px 0 rgba(250, 249, 249, 0.924);
+    margin: 10px 5px 20px 5px;
+    border-radius: 7px;
+}
+
+.banner {
+    background: rgb(1, 31, 3);
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.deals {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leftSide {
+    text-align: left;
+}
+
+.rightSide {
+    text-align: right;
+    padding-bottom: 10px
+}
+
+.small {
+    display: block;
+    color: rgba(15, 121, 32, 0.979); 
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 90%;
+}
+
+.priceBox {
+    background: rgb(5, 5, 5);
+    margin: 0 10px 0 5px;
+    border-radius: 2px;
+    color: white;
+    padding: 3px;
 }
 
 .game {
@@ -72,22 +127,23 @@ h2 {
 
 }
 
-ul {
+.gameObj {
     list-style-type: none;
     margin: 0 40px 10px 0;
     text-align: center;
 }
 
-a,
-p {
+.bigT {
     font-size: 20px;
     margin: 10px 0 10px 0;
     color: rgb(255, 255, 255);
 }
 
-a {
+.big {
     color: rgba(51, 245, 84, 0.979);
     text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
 }
 
 a:hover {
@@ -99,4 +155,10 @@ a:hover {
         display: inline-block;
         width: 33%;
     }
+    .cards {
+        display: inline-block;
+        width: 380px;
+        
+    }
+
 }
