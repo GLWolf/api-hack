@@ -23,6 +23,10 @@ h2 {
     margin: 20px 0 20px 0;
 }
 
+.dealsText {
+    padding-top: 15px
+}
+
 .searchContainer {
     text-align: center;
     margin: 0 0 20px 0;
@@ -96,7 +100,7 @@ h2 {
 
 .small {
     display: block;
-    color: rgba(15, 121, 32, 0.979); 
+    color: rgba(15, 121, 32, 0.979);
     font-size: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -150,15 +154,55 @@ a:hover {
     color: rgb(238, 16, 16);
 }
 
+/* test */
+.tooltip {
+    position: relative;
+}
+
+.toolTipImg {
+    max-width: 90%;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 @media only screen and (min-width:800px) {
     .game {
         display: inline-block;
         width: 33%;
     }
+
     .cards {
         display: inline-block;
         width: 380px;
-        
+
     }
 
 }

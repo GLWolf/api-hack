@@ -64,8 +64,8 @@ function extraHtml(obj) {
 
 function dealsHTML(obj) {
     return `
-    <li><div class="leftSide"><a class="small" href="https://www.cheapshark.com/redirect?dealID=${obj.dealID}" target="_blank"
-    style=":hover {content: url(${obj.thumb});}">${obj.title}</a>
+    <li><div class="leftSide tooltip"><a class="small" href="https://www.cheapshark.com/redirect?dealID=${obj.dealID}" target="_blank">${obj.title}</a>
+    <span class="tooltiptext"><img src="${obj.thumb}" class="toolTipImg" /></span>
     </div><div class="rightSide"><del>$${obj.normalPrice}</del><span class="priceBox">$${obj.salePrice}</span></div></li>
     `
 }
