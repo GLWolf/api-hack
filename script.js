@@ -1,6 +1,6 @@
 const STATE = {
     storeID: null
-}
+};
 
 function generateHtml(obj) {
     return `
@@ -21,7 +21,7 @@ function generateHtml(obj) {
             <li><a class="big" href="https://www.cheapshark.com/redirect?dealID=${obj.dealID}" target="_blank">Link to deal.</a></li>
         </ul>
     </div>   
-       `
+       `;
 }
 
 function gameNotFound() {
@@ -55,7 +55,7 @@ function getGame(searchTerm) {
 function extraHtml(obj) {
     return `
     <section class="cards">
-        <img class="banner" src="https://www.cheapshark.com${obj.images.banner}" alt="stoe icon">
+        <img class="banner" src="https://www.cheapshark.com${obj.images.banner}" alt="store icon">
         <ul class="deals" id="${obj.storeID}">
         </ul>
     </section>
